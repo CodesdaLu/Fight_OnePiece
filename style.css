@@ -1,0 +1,56 @@
+
+
+ol {
+    list-style-type: none;
+    font-size:30px;
+    color: yellow;
+}
+
+
+.fightarea {
+    display: flex;
+    gap: 50%;
+    margin: 4rem;
+
+}
+
+#char, #monster {
+    flex: 1;
+}
+
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #272727;
+    border-radius: 5px;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+    
+
+}
+
+.name {
+    display: flex;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.attackbt{
+    margin-top: 20px;
+}
+
+
+.log {
+    border: 1px dotted #ece0e0;
+    height: 300px;
+    overflow-y: scroll;
+    margin: 20%;
+    margin-top: 30px;
+    text-align: center;
+}
